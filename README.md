@@ -1,8 +1,2 @@
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+for the week-container
+i wanted the days (monday, tuesday, wednesday, thursday, friday, saturday, sunday) to scroll but only show the current yesterday, today, and tomorrow with the today being the magnified/ have larger font compared to the rest. it sounds a little ambitious but if i cannot figure it out then i'll simplify it. something like this https://www.youtube.com/watch?v=ODRCOclu6E4 but the yester and tomorrow is still visible.
