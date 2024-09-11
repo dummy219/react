@@ -1,0 +1,121 @@
+/* week tracker  */
+.week-tracker{  
+    display: grid;
+    background-color: #100F0F;
+    width: 170px;
+    height: 170px;
+    border-radius: 20px;
+    padding: 10px;
+    margin-right: 50px;
+    
+    grid-template-rows: 1fr auto 1fr; 
+    grid-template-columns: 1fr auto 1fr;
+    place-items: center; 
+}
+
+.week-text{
+    color: #D8C9F9;
+    grid-row: 1;
+    grid-column: 1;
+    justify-self: start;
+    align-self: start;
+    font-size: 13px;
+}
+  
+.week-number{
+    color: #A175FF;
+    font-size: 65px;
+    grid-row: 2;
+    grid-column: 2;
+    justify-self: center;
+    align-self: center;
+}
+
+.week-text2{
+    color: #D8C9F9;
+    grid-row: 3;
+    grid-column: 3;
+    justify-self: end;
+    align-self: end;
+    font-size: 13px;
+}
+  
+/* week average */
+.week-average{  
+    display: grid;
+    background-color: #100F0F;
+    width: 170px;
+    height: 170px;
+    border-radius: 20px;
+    padding: 10px;
+    margin-right: 50px;
+
+    grid-template-rows: 1fr auto 1fr; 
+    grid-template-columns: 1fr auto 1fr;
+    place-items: center; 
+}
+.average-text{
+    color: #D3ECC8;
+    grid-row: 1;
+    grid-column: 1;
+    justify-self: start;
+    align-self: start;
+    font-size: 13px;
+}
+
+.average-number{
+    color: #8BF05B;
+    font-size: 65px;
+    grid-row: 2;
+    grid-column: 2;
+    justify-self: center;
+    align-self: center;
+}
+.average-text2{
+    color: #D3ECC8;
+    grid-row: 3;
+    grid-column: 3;
+    justify-self: end;
+    align-self: end;
+    font-size: 13px;
+}
+
+/* week target */
+.week-target{  
+    display: grid;
+    background-color: #100F0F;
+    width: 170px;
+    height: 170px;
+    border-radius: 20px;
+    padding: 10px;
+    margin-right: 50px;
+
+    grid-template-rows: 1fr auto 1fr; 
+    grid-template-columns: 1fr auto 1fr;
+    place-items: center; 
+}
+.target-text{
+    color: #D3ECC8;
+    grid-row: 1;
+    grid-column: 1;
+    justify-self: start;
+    align-self: start;
+    font-size: 13px;
+}
+
+.target-number{
+    color: #8BF05B;
+    font-size: 65px;
+    grid-row: 2;
+    grid-column: 2;
+    justify-self: center;
+    align-self: center;
+}
+.target-text2{
+    color: #D3ECC8;
+    grid-row: 3;
+    grid-column: 3;
+    justify-self: end;
+    align-self: end;
+    font-size: 13px;
+}

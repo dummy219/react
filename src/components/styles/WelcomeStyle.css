@@ -1,0 +1,30 @@
+
+.welcome-text{
+    color: #93CD78;
+    grid-row: 1;
+    grid-column: 1;
+    border: 2px solid red;
+
+}
+  
+.overview-text{
+    color: #7C8F72;
+    margin-top:70px ;
+    margin-top: -8px;
+
+    grid-row: 1;
+    grid-column: 1;
+    border: 2px solid red;
+
+}
+
+.current-week{
+    color: #7C8F72;
+    margin-top: 0px;
+    border: 2px solid red;
+    margin-top: 15px;
+
+}
+
+
+  

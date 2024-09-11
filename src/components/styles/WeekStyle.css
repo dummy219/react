@@ -1,0 +1,30 @@
+.week-container {
+    display: flex; 
+    background-color: #100F0F;
+    flex-direction: row; 
+    width: 750px;
+    height: 350px;
+    border-radius: 20px;
+    margin-left: 80px;
+    border: 2px solid red;
+    padding: 10px;
+    margin-top: 15px;
+    justify-content: space-between;
+    align-items: stretch;
+}
+.right-side {
+    border: 2px solid rgb(25, 228, 25);
+    flex: 1; 
+
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+/* LEFT */
+.left-side {
+    border: 2px solid green;
+    flex: 1; 
+}
+
